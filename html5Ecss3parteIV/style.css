@@ -94,10 +94,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	
-}
-
 form {
 	margin: 40px 0;
 }
@@ -250,11 +246,17 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos{
 		width: auto;
 	}
 
-	h1 {
+	.produtos li{
+		display: block;
+		margin: 0 auto 10px auto;
+		width: 70%;
+	}
+
+	h1, nav {
 		text-align: center;
 	}
 
@@ -264,5 +266,5 @@ td, th {
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
-	}
+	} 
 }
