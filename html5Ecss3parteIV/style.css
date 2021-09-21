@@ -95,7 +95,8 @@ footer {
 }
 
 form {
-	margin: 40px 0;
+	margin: 40px 10px;
+
 }
 
 form label, form legend {
@@ -264,7 +265,24 @@ td, th {
 		position: static;
 	}
 
+    form{
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 0 10px;
+	}
+
+	.input-padrao {
+		width: 80%;
+	}
+	.enviar{
+		width:100%;
+	}
+
+	table{
+		margin: 10px auto;
+	}
+
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	} 
-}
+} 
